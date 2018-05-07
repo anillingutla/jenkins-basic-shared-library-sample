@@ -1,4 +1,4 @@
-final jenkins-basic-shared-library-sample = library('jenkins-basic-shared-library-sample')
+//final jenkins-basic-shared-library-sample = library('jenkins-basic-shared-library-sample')
 
 def call(body) {
     def config = [:]
@@ -38,6 +38,6 @@ def call(body) {
     }
 }
 
-return this
+//return this
 
 
