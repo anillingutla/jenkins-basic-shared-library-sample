@@ -1,3 +1,5 @@
+final jenkins-basic-shared-library-sample = library('jenkins-basic-shared-library-sample')
+
 def call(body) {
     def config = [:]
     body.resolveStrategy = Closure.DELEGATE_FIRST
@@ -36,5 +38,6 @@ def call(body) {
     }
 }
 
+return this
 
 
